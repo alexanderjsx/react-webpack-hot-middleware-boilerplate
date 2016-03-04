@@ -1,0 +1,50 @@
+{
+  "name": "react-webpack-hot-middleware-boilerplate",
+  "version": "1.0.0",
+  "description": "Boilerplate for React Webpack Hot Middleware",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alexanderjsx/react-webpack-hot-middleware-boilerplate.git"
+  },
+  "keywords": [
+    "react",
+    "webpack",
+    "webpack-dev-middleware",
+    "webpack-hot-middleware",
+    "express",
+    "hot module replacement",
+    "hmr",
+    "babel",
+    "live",
+    "hot",
+    "loader",
+    "reload",
+    "livereload"
+  ],
+  "author": "AlexanderJSX",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/alexanderjsx/react-webpack-hot-middleware-boilerplate/issues"
+  },
+  "homepage": "https://github.com/alexanderjsx/react-webpack-hot-middleware-boilerplate#readme",
+  "dependencies": {
+    "express": "^4.13.4",
+    "react": "^0.14.7",
+    "react-dom": "^0.14.7"
+  },
+  "devDependencies": {
+    "babel-core": "^6.5.2",
+    "babel-loader": "^6.2.3",
+    "babel-preset-es2015": "^6.5.0",
+    "babel-preset-react": "^6.5.0",
+    "babel-preset-react-hmre": "^1.1.0",
+    "babel-preset-stage-0": "^6.5.0",
+    "webpack": "^1.12.14",
+    "webpack-dev-middleware": "^1.5.1",
+    "webpack-hot-middleware": "^2.7.1"
+  }
+}
